@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olawale | Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="bg-light py-1 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="#" class="navbar-brand olawale">
+                    <img src="./images/Group 11.png" alt="Olawale brand logo" width="80" height="30" id="home">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#content" aria-expanded="false" aria-label="Toggle Navigation"><span class="fa fa-solid fa-bars" style="color:#fc7f66"></span></button>
+
+                <div class="collapse navbar-collapse" id="content">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link active">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#stack" class="nav-link active">Tech Stack</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn" style="color:#fff; background-color:#1d5191; border-radius: 0 10px 0 10px;" type="button" data-bs-toggle="modal" data-bs-target="#contact-me">Contact Me</button>
+                        </li>
+                    </ul>                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner" data-aos="fade-up">
+        <div class="d-flex align-items-center justify-content-between container py-md-5 py-5 text-white">
+            <div class="py-5">
+                <h1 class="" style="font-weight:bold; margin-bottom:60px">Hello,<br><span class="typing"></span></h1>
+
+                <p style="font-size: 20px; font-weight:700">I design and build responsive web apps.</p>
+
+                <p style="font-size: 20px; font-weight:700; margin-top:-18px;">I am based in Lagos, Nigeria.</p>
+
+                <a href="https://www.github.com/Olawale-Alx" target="_blank"><i class="fa fa-brands fa-github fa-2x text-dark pb-5" style="margin-right:10px"></i></a>
+                <a href="https://www.linkedin.com/in/o-olawale" target="_blank"><i class="fa fa-brands fa-linkedin fa-2x text-dark pb-5" style="margin-right:10px;"></i></a>
+                <a href="mailto:olaleyeolawale2020@outlook.com"><i class="fa-solid fa-envelope fa-2x text-dark pb-5"></i></a>
+                <br>
+
+                <button class="btn btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#contact-me" style="color:#fff; background-color:#1d5191; border-radius: 0 10px 0 10px;">Contact Me</button>
+            </div>
+
+            <img src="./images/african__2_-removebg-preview.svg" alt="Olawale Avatar" class="img-fluid py-5 african" width="300" data-aos="fade-out">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="text-center text-white py-2 py-md-3" style="background-color:#fc7f66; font-weight: bold;">Services</h2>
+
+        <div class="container" data-aos="flip-down">
+            <div class="row mt-4 mb-5 gx-md-1 gy-3 text-center">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body" style="height: 190px;">
+                            <i class="fafa-sharp fa-solid fa-pager fa-3x mt-2 mb-3"></i>
+                            <p class="lead">I build responsive<br>web pages</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body" style="height: 190px;">
+                            <img src="./images/Icon awesome-android.svg" alt="Android" class="mt-2 mb-3">
+                            <p class="lead">I build high<br>performance Apps</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body" style="height: 190px;">
+                            <i class="fafa-sharp fa-solid fa-database fa-3x mt-2 mb-3"></i>
+                            <p class="lead">I manage<br>databases</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-body" style="height: 190px;">
+                            <img src="./images/Group 7.svg" class="mt-2 mb-3"></img>
+                            <p class="lead">I design<br>products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack mt-5 mb-5" id="stack">
+        <h2 class="text-center text-white py-2 py-md-3" style="background-color:#fc7f66; font-weight: bold;">Tech Stack</h2>
+
+        <div class="container mb-5 w-75 mx-auto text-center" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon awesome-html5.svg" alt="HTML 5">
+                    <small>HTML 5</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon simple-css3.svg" alt="css 3">
+                    <small>CSS 3</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon simple-javascript.svg" alt="javascript">
+                    <small>Javascript</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                <img src="./images/stack//Icon simple-jquery.svg" alt="jQuery">
+                    <small>jQuery</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon awesome-react.svg" alt="reactjs">
+                    <small>React</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Group 8.svg" alt="">
+                    <small>Adobe Xd</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon awesome-python.svg" alt="python">
+                    <small>Python</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon simple-django.svg" alt="django">
+                    <small>Django</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon awesome-node-js.svg" alt="NodeJS">
+                    <small>NodeJS</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon simple-flask.svg" alt="Flask">
+                    <small>Flask</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/Icon awesome-database.svg" alt="databases">
+                    <small>Databases</small>
+                </div>
+
+                <div class="col-md-2 col-4 mt-3">
+                    <img src="./images/stack/Icon simple-postgresql.svg" alt="postgresql">
+                    <small>PostgreSQL</small>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white text-center py-2" style="background-color: #fc7f66;">
+        <p>&copy; Copyright <span id="copyright"></span> <span style="font-style: italic; font-weight:bold">Olawale</span> is a registered trademark</p>
+    </footer>
+
+    <!-- Button trigger modal -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="contact-me" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contact me label" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="contact_me_label">Contact Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="contact-name" class="w-100 py-2 px-2 mb-3"><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="w-100 py-2 px-2 mb-3"><br>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message..." class="w-100 px-2 py-1 mb-4" style="height: 140px; resize: none;"></textarea><br>
+
+                    <button type="button" class="btn btn-primary w-100" style="background-color: #1d5191;" id="submitButton">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            
+            </div>
+        </div>
+        </div>
+    </div>
+  
+
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- font-awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            
+        })();
+    </script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
